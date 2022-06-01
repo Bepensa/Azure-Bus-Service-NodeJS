@@ -1,0 +1,12 @@
+{
+  "bindings": [
+    {
+      "authLevel": "anonymous",
+      "name": "data",
+      "type": "serviceBusTrigger",
+      "direction": "in",
+      "queueName": "dataqueue",
+      "connection": "azureBusConnection"
+    }
+  ]
+}
